@@ -1,16 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-
-    <meta name="description" content="" />
-    <meta name="author" content="" />
-
-    <title>Schedule - Festava Live</title>
-
-    <!-- CSS FILES -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us - Festava Live</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
 
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 
@@ -24,166 +34,113 @@
     <link href="css/bootstrap-icons.css" rel="stylesheet" />
 
     <link href="css/templatemo-festava-live.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/contact.css">
+   
   </head>
-
   <body>
-    <main>
-      <nav class="navbar navbar-expand-lg">
-        <div class="container">
-          <a class="navbar-brand" href="index.html"> Festava Live </a>
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <a class="navbar-brand" href="index.html"> Festava Live </a>
 
-          <a href="ticket.html" class="btn custom-btn d-lg-none ms-auto me-4"
+        <a href="ticket.html" class="btn custom-btn d-lg-none ms-auto me-4"
+          >Buy Ticket</a
+        >
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav align-items-lg-center ms-auto me-lg-5">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+
+            <!-- Added active class to Artists link -->
+            <li class="nav-item">
+              <a class="nav-link active" href="artists.html">Artists</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="schedule.html">Schedule</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="pricing.html">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+
+          <a href="ticket.html" class="btn custom-btn d-lg-block d-none"
             >Buy Ticket</a
           >
-
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNav"
-            aria-controls="navbarNav"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav align-items-lg-center ms-auto me-lg-5">
-              <li class="nav-item">
-                <a class="nav-link" href="index.html">Home</a>
-              </li>
-
-              <li class="nav-item">
-                <a class="nav-link" href="about.html">About</a>
-              </li>
-
-              <li class="nav-item">
-                <a class="nav-link" href="artists.html">Artists</a>
-              </li>
-
-              <!-- Added active class to Schedule link -->
-              <li class="nav-item">
-                <a class="nav-link active" href="schedule.html">Schedule</a>
-              </li>
-
-              <li class="nav-item">
-                <a class="nav-link" href="pricing.html">Pricing</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact</a>
-              </li>
-            </ul>
-
-            <a href="ticket.html" class="btn custom-btn d-lg-block d-none"
-              >Buy Ticket</a
-            >
-          </div>
         </div>
-      </nav>
+      </div>
+    </nav>
 
-      <section class="schedule-section section-padding" id="section_4">
-        <div class="container">
-          <div class="row">
-            <div class="col-12 text-center">
-              <h2 class="text-white mb-4">Event Schedule</h2>
-
-              <div class="table-responsive">
-                <table class="schedule-table table table-dark">
-                  <thead>
-                    <tr>
-                      <th scope="col">Date</th>
-
-                      <th scope="col">Wednesday</th>
-
-                      <th scope="col">Thursday</th>
-
-                      <th scope="col">Friday</th>
-                    </tr>
-                  </thead>
-
-                  <tbody>
-                    <tr>
-                      <th scope="row">Day 1</th>
-
-                      <td
-                        class="table-background-image-wrap pop-background-image"
-                      >
-                        <h3>Pop Night</h3>
-
-                        <p class="mb-2">5:00 - 7:00 PM</p>
-
-                        <p>By Adele</p>
-
-                        <div class="section-overlay"></div>
-                      </td>
-
-                      <td style="background-color: #f3dcd4"></td>
-
-                      <td
-                        class="table-background-image-wrap rock-background-image"
-                      >
-                        <h3>Rock & Roll</h3>
-
-                        <p class="mb-2">7:00 - 11:00 PM</p>
-
-                        <p>By Rihana</p>
-
-                        <div class="section-overlay"></div>
-                      </td>
-                    </tr>
-
-                    <tr>
-                      <th scope="row">Day 2</th>
-
-                      <td style="background-color: #ecc9c7"></td>
-
-                      <td>
-                        <h3>DJ Night</h3>
-
-                        <p class="mb-2">6:30 - 9:30 PM</p>
-
-                        <p>By Rihana</p>
-                      </td>
-
-                      <td style="background-color: #d9e3da"></td>
-                    </tr>
-
-                    <tr>
-                      <th scope="row">Day 3</th>
-
-                      <td
-                        class="table-background-image-wrap country-background-image"
-                      >
-                        <h3>Country Music</h3>
-
-                        <p class="mb-2">4:30 - 7:30 PM</p>
-
-                        <p>By Rihana</p>
-
-                        <div class="section-overlay"></div>
-                      </td>
-
-                      <td style="background-color: #d1cfc0"></td>
-
-                      <td>
-                        <h3>Free Styles</h3>
-
-                        <p class="mb-2">6:00 - 10:00 PM</p>
-
-                        <p>By Members</p>
-                      </td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
+    <section class="contact-section">
+      <div class="contact-form-wrapper">
+        <h2 class="text-white">Send Us a Message</h2>
+        <form class="contact-form">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="firstName">First Name</label>
+              <input type="text" id="firstName" name="firstName" required />
+            </div>
+            <div class="form-group">
+              <label for="lastName">Last Name</label>
+              <input type="text" id="lastName" name="lastName" required />
             </div>
           </div>
-        </div>
-      </section>
-    </main>
 
-    <!-- Added full footer inline -->
+          <div class="form-row">
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <input type="email" id="email" name="email" required />
+            </div>
+            <div class="form-group">
+              <label for="phone">Phone Number</label>
+              <input type="tel" id="phone" name="phone" />
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="subject">Subject</label>
+            <select id="subject" name="subject" required>
+              <option value="">Select a subject</option>
+              <option value="general">General Inquiry</option>
+              <option value="tickets">Ticket Information</option>
+              <option value="artists">Artist Lineup</option>
+              <option value="sponsorship">Sponsorship</option>
+              <option value="media">Media & Press</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required></textarea>
+          </div>
+
+          <button type="submit" class="submit-btn">Send Message</button>
+        </form>
+      </div>
+    </section>
+
     <footer class="site-footer">
       <div class="site-footer-top">
         <div class="container">
@@ -314,8 +271,7 @@
       </div>
     </footer>
 
-    <!-- JAVASCRIPT FILES -->
-    <script src="js/jquery.min.js"></script>
+     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery.sticky.js"></script>
     <script src="js/custom.js"></script>
